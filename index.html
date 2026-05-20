@@ -69,6 +69,39 @@
         </article>
     </section>
 
+    <section id="habilidades">
+
+        <h2>Habilidades e tecnologia</h2>
+
+        <table><!-- table é a tag utilizada para adicionarmos tabelas -->
+            <thead><!-- thead é o cabeçalho da tabela, ficará destacado -->
+                <tr><!-- tr é a linha da tabela -->
+                    <th>Tecnologia</th> <!--th é a tag utilizada para adicionar colunas no cabeçalho da tabela-->
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody> <!--tbody é a tag que indica o corpo da tabela, onde adicionaremos as informações dela-->
+                <tr>
+                    <td>HTML</td><!--td indica que adicionaremos uma nova coluna no corpo da tabela. Importante, quando for adicionar, observar as colunas adicionadas acima para queo conteúdo siga a mesma ordem. -->
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas</td>
+                </tr>
+                <tr>
+                    <td>CSSL</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com felxbox, gris e animação CSS</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
     <footer> <!--Tag utilizada para indicar o rodapé da minha página-->
         <p>Direitos reservados a Ramon</p>
 
@@ -76,9 +109,9 @@
             <h2>Contatos</h2>
 
             <p>Tem um projeto em mente? Entre em contato</p>
-        
+
             <form action="">
-            <!-- A tag form é utilizada para adicionarmos formulários. Quando utilizada, a IDE já adiciona com oa atributo action, onde eu posso indicar para onde serão enviados os dados dos meus formulários -->
+                <!-- A tag form é utilizada para adicionarmos formulários. Quando utilizada, a IDE já adiciona com oa atributo action, onde eu posso indicar para onde serão enviados os dados dos meus formulários -->
                 <label for="nome">Nome: </label>
                 <input type="text" id="nome" name="nome" required> <br>
                 <!-- Com a tag label, adiciono o que aparecerá ao lado do campo onde o usuário adicionará os dados -->
@@ -102,7 +135,7 @@
                 <label for="mensagem">Mensagem: </label>
                 <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea> <br>
                 <!-- A tag textarea é utilizada para quandoque quiser adicionar uma caixa de texto maior. Nos atributos em cols e rows, eu posso determinar quantas colunas e linhas ela terá -->
-                
+
                 <input type="checkbox" id="inscricao" name="inscricao">
                 <label for="inscriciao">Deseja receber minha newslatter? Fique por dentro!</label> <br>
                 <!-- aqui, eu inverti a ordem, adicionando o input primeiro, pois quero que o campo fique a esquerda da label. -->
@@ -114,10 +147,10 @@
             </form>
 
             <!-- <address> -->
-                <!--Tag utilizada para indicar informções de endereço e contatos. É utilizada ela devido a sua importância semântica-->
-                <!-- E-mail: <a href="mailto:ramito@jogadorcaro.com.br">ramito@jogadorcaro.com.br</a><br> -->
-                <!--Aqui, a tag a é utilizada para "linkar" a informação de contato que eu adicionar, neste caso o e-mail. No br, estou realizando uma quebre de linha, jáque nos dados da tag address estou utilizando texto   -->
-                <!-- Telefone: <a href="tel:+5548999999999">(48)9.9999-9999</a> -->
+            <!--Tag utilizada para indicar informções de endereço e contatos. É utilizada ela devido a sua importância semântica-->
+            <!-- E-mail: <a href="mailto:ramito@jogadorcaro.com.br">ramito@jogadorcaro.com.br</a><br> -->
+            <!--Aqui, a tag a é utilizada para "linkar" a informação de contato que eu adicionar, neste caso o e-mail. No br, estou realizando uma quebre de linha, jáque nos dados da tag address estou utilizando texto   -->
+            <!-- Telefone: <a href="tel:+5548999999999">(48)9.9999-9999</a> -->
             <!-- </address> -->
         </section>
     </footer>
